@@ -80,3 +80,28 @@ Por esta razón, la versión actual del MVP no requiere una política CORS abier
 La salida del modelo corresponde a una estimación orientativa basada en patrones históricos.
 
 No constituye una decisión oficial de asignación de gratuidad, becas, créditos u otros beneficios estudiantiles.
+
+
+## Despliegue
+
+La aplicación se encuentra desplegada públicamente en Render:
+
+https://capstone-fuas.onrender.com
+
+El servicio integra en una única aplicación:
+
+- Frontend React compilado.
+- API FastAPI.
+- Modelo Random Forest congelado.
+- Explicaciones SHAP.
+- Endpoints de salud y metadatos del modelo.
+
+### Endpoints principales
+
+- `/` — Interfaz web.
+- `/health` — Estado del servicio y disponibilidad del modelo.
+- `/model-info` — Información del modelo y métricas.
+- `/predict` — Predicción individual.
+- `/explain` — Explicación SHAP de la estimación.
+
+El modelo fue desarrollado con datos FUAS 2024 y evaluado mediante holdout temporal 2025.
