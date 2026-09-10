@@ -1,0 +1,59 @@
+{
+  "etl": {
+    "filas_raw": null,
+    "filas_fuas": null,
+    "filas_analytic": null,
+    "target_pos_rate_pct": null
+  },
+  "data_quality_alarmas": [],
+  "eda_report": "/content/capstone_fuas_integrado/capstone_pkg/artifacts/reports/eda_2024.json",
+  "validation_2024": {
+    "roc_auc": 0.8006593977063129,
+    "balanced_accuracy": 0.7168699781605293,
+    "recall": 0.8485352571398553,
+    "precision": 0.6245682322008558,
+    "f1": 0.7195260473507205,
+    "fnr": 0.15146474286014466,
+    "accuracy": 0.7033078360846279,
+    "average_precision": 0.7447455621653531,
+    "tn": 41096,
+    "fp": 29129,
+    "fn": 8650,
+    "tp": 48459
+  },
+  "reproduction_checks": {
+    "roc_auc": {
+      "expected_approx": 0.8007,
+      "actual": 0.8006593977063129,
+      "abs_diff": 4.060229368707535e-05,
+      "within_tolerance": true
+    },
+    "recall": {
+      "expected_approx": 0.8485,
+      "actual": 0.8485352571398553,
+      "abs_diff": 3.5257139855304764e-05,
+      "within_tolerance": true
+    },
+    "fnr": {
+      "expected_approx": 0.1515,
+      "actual": 0.15146474286014466,
+      "abs_diff": 3.525713985533252e-05,
+      "within_tolerance": true
+    },
+    "f1": {
+      "expected_approx": 0.7195,
+      "actual": 0.7195260473507205,
+      "abs_diff": 2.6047350720426188e-05,
+      "within_tolerance": true
+    },
+    "balanced_accuracy": {
+      "expected_approx": 0.7169,
+      "actual": 0.7168699781605293,
+      "abs_diff": 3.0021839470650846e-05,
+      "within_tolerance": true
+    },
+    "all_within_tolerance": true
+  },
+  "frozen_model": "/content/capstone_fuas_integrado/capstone_pkg/models/rf_frozen_2024.joblib",
+  "metadata": "/content/capstone_fuas_integrado/capstone_pkg/artifacts/reports/integration_2024_frozen.json"
+}

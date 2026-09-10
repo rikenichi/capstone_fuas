@@ -1,0 +1,33 @@
+{
+  "dataset": 2025,
+  "tipo_evaluacion": "test_temporal_final",
+  "modelo": "RandomForestClassifier",
+  "archivo_modelo": "rf_frozen_2024.joblib",
+  "threshold": 0.42,
+  "reentrenado": false,
+  "retuning_con_2025": false,
+  "features": [
+    "NEM",
+    "QUINTIL_SE4",
+    "COD_DEPE",
+    "EDAD",
+    "GENERO",
+    "NACIONALIDAD"
+  ],
+  "metricas": {
+    "roc_auc": 0.7880178815607293,
+    "balanced_accuracy": 0.7095241410742086,
+    "recall": 0.8512977911824714,
+    "precision": 0.6092851628370005,
+    "f1": 0.7102412251163053,
+    "fnr": 0.1487022088175286,
+    "accuracy": 0.6930503201851492,
+    "average_precision": 0.7169542387062331
+  },
+  "matriz_confusion": {
+    "tn": 202080,
+    "fp": 153851,
+    "fn": 41908,
+    "tp": 239917
+  }
+}

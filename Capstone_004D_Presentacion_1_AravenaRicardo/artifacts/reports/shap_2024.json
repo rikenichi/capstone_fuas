@@ -1,0 +1,74 @@
+{
+  "anio_explicacion": 2024,
+  "modelo": "RandomForestClassifier",
+  "clase_explicada": 1,
+  "significado_clase": "OBTUVO_BENEFICIO = 1",
+  "muestra_shap": {
+    "n_registros": 3000,
+    "random_state": 42,
+    "fuente": "dataset analitico 2024"
+  },
+  "valor_base_clase_positiva": 0.5,
+  "ranking_global": [
+    {
+      "feature": "QUINTIL_SE4",
+      "orden": 1
+    },
+    {
+      "feature": "EDAD",
+      "orden": 2
+    },
+    {
+      "feature": "NEM",
+      "orden": 3
+    },
+    {
+      "feature": "GENERO",
+      "orden": 4
+    },
+    {
+      "feature": "COD_DEPE",
+      "orden": 5
+    },
+    {
+      "feature": "NACIONALIDAD",
+      "orden": 6
+    }
+  ],
+  "interpretacion_global": {
+    "principal": "QUINTIL_SE4 presenta el mayor impacto global sobre la salida del modelo.",
+    "segunda": "EDAD presenta el segundo mayor impacto global.",
+    "tercera": "NEM presenta el tercer mayor impacto global.",
+    "nota": "Los valores SHAP explican el comportamiento del modelo y no deben interpretarse como efectos causales."
+  },
+  "caso_positivo": {
+    "probabilidad_modelo": 0.9494309802258452,
+    "datos_originales": {
+      "NEM": 683,
+      "QUINTIL_SE4": 1,
+      "COD_DEPE": 1,
+      "EDAD": 20,
+      "GENERO": 2,
+      "NACIONALIDAD": 0
+    },
+    "interpretacion": "Quintil 1, edad baja y NEM alto empujan fuertemente la estimacion hacia beneficio."
+  },
+  "caso_negativo": {
+    "probabilidad_modelo": 0.0039100733067636475,
+    "datos_originales": {
+      "NEM": 575,
+      "QUINTIL_SE4": 5,
+      "COD_DEPE": 4,
+      "EDAD": 29,
+      "GENERO": 2,
+      "NACIONALIDAD": 2
+    },
+    "interpretacion": "Quintil 5, edad y otras categorias empujan fuertemente la estimacion hacia no beneficio."
+  },
+  "archivos_figuras": {
+    "importancia_global": "artifacts/figures/shap/shap_importancia_global_limpio.png",
+    "beeswarm": "artifacts/figures/shap/shap_beeswarm.png",
+    "waterfall_positivo": "artifacts/figures/shap/shap_waterfall_caso_positivo_limpio.png",
+    "waterfall_negativo": "artifacts/figures/shap/shap_waterfall_caso_negativo_limpio.png"
+  }
+}
