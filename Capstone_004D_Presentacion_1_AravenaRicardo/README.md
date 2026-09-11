@@ -105,3 +105,27 @@ El servicio integra en una única aplicación:
 - `/explain` — Explicación SHAP de la estimación.
 
 El modelo fue desarrollado con datos FUAS 2024 y evaluado mediante holdout temporal 2025.
+
+## Dashboard histórico
+
+La aplicación incluye una vista de análisis histórico FUAS para el período 2008–2025.
+
+El dashboard presenta:
+
+- evolución anual de postulantes;
+- cantidad de beneficiarios;
+- tasa histórica de beneficio;
+- análisis por género;
+- análisis por quintil socioeconómico;
+- análisis por tramos de edad;
+- cobertura metodológica de las variables según año.
+
+La disponibilidad de variables cambia según el período histórico. Por ejemplo, `QUINTIL_SE4` no está disponible en los archivos FUAS 2019–2021, por lo que esos años no se interpretan como valor cero.
+
+La tasa de beneficio utiliza la misma definición de beneficio válido empleada en el pipeline del proyecto. Los casos cuyo único registro corresponde a una sigla no resuelta se excluyen del cálculo de la tasa.
+
+### Endpoint del dashboard
+
+- `/dashboard` — Datos agregados históricos utilizados por la interfaz.
+
+El dashboard es descriptivo y no modifica ni reentrena el modelo predictivo. El modelo final continúa utilizando 2024 para desarrollo y 2025 como evaluación temporal.
