@@ -1,0 +1,2034 @@
+{
+  "metadata": {
+    "titulo": "Análisis histórico FUAS 2008-2025",
+    "rango_anios": [
+      2008,
+      2025
+    ],
+    "nota_metodologica": "La clasificación de procesos publicada por MINEDUC cambia durante la serie histórica. Para 2019-2025 se utiliza explícitamente PROCESO=FUAS. Para 2008-2018 se utiliza la población histórica publicada en cada archivo.",
+    "definicion_beneficio": "Beneficio válido según catálogo reconocido del proyecto. Casos con únicamente siglas desconocidas se excluyen de la tasa resuelta.",
+    "cobertura_variables": {
+      "genero": {
+        "periodo": "2008-2025",
+        "descripcion": "Cobertura completa de los casos resueltos en todos los años analizados."
+      },
+      "edad": {
+        "periodo": "2008-2025",
+        "descripcion": "Disponible durante toda la serie. Se consideran edades plausibles entre 10 y 130 años. La cobertura es parcial en algunos años iniciales."
+      },
+      "quintil": {
+        "periodos": [
+          "2013-2018",
+          "2022-2025"
+        ],
+        "descripcion": "QUINTIL_SE4 no está disponible en los archivos FUAS 2019-2021. En 2018 la cobertura de quintiles válidos 1-5 es 99,47%."
+      }
+    }
+  },
+  "resumen_anual": [
+    {
+      "anio": 2008,
+      "postulantes_mrun": 184099,
+      "beneficio_valido": 57519,
+      "sin_beneficio_valido": 126580,
+      "solo_desconocido": 0,
+      "casos_resueltos": 184099,
+      "tasa_beneficio_pct": 31.2435
+    },
+    {
+      "anio": 2009,
+      "postulantes_mrun": 229012,
+      "beneficio_valido": 73002,
+      "sin_beneficio_valido": 156010,
+      "solo_desconocido": 0,
+      "casos_resueltos": 229012,
+      "tasa_beneficio_pct": 31.8769
+    },
+    {
+      "anio": 2010,
+      "postulantes_mrun": 264410,
+      "beneficio_valido": 79512,
+      "sin_beneficio_valido": 184898,
+      "solo_desconocido": 0,
+      "casos_resueltos": 264410,
+      "tasa_beneficio_pct": 30.0715
+    },
+    {
+      "anio": 2011,
+      "postulantes_mrun": 289724,
+      "beneficio_valido": 81444,
+      "sin_beneficio_valido": 208280,
+      "solo_desconocido": 0,
+      "casos_resueltos": 289724,
+      "tasa_beneficio_pct": 28.1109
+    },
+    {
+      "anio": 2012,
+      "postulantes_mrun": 312157,
+      "beneficio_valido": 109616,
+      "sin_beneficio_valido": 202541,
+      "solo_desconocido": 0,
+      "casos_resueltos": 312157,
+      "tasa_beneficio_pct": 35.1157
+    },
+    {
+      "anio": 2013,
+      "postulantes_mrun": 331838,
+      "beneficio_valido": 126220,
+      "sin_beneficio_valido": 205618,
+      "solo_desconocido": 0,
+      "casos_resueltos": 331838,
+      "tasa_beneficio_pct": 38.0366
+    },
+    {
+      "anio": 2014,
+      "postulantes_mrun": 349090,
+      "beneficio_valido": 135652,
+      "sin_beneficio_valido": 213438,
+      "solo_desconocido": 0,
+      "casos_resueltos": 349090,
+      "tasa_beneficio_pct": 38.8587
+    },
+    {
+      "anio": 2015,
+      "postulantes_mrun": 344931,
+      "beneficio_valido": 161552,
+      "sin_beneficio_valido": 183379,
+      "solo_desconocido": 0,
+      "casos_resueltos": 344931,
+      "tasa_beneficio_pct": 46.836
+    },
+    {
+      "anio": 2016,
+      "postulantes_mrun": 609295,
+      "beneficio_valido": 309050,
+      "sin_beneficio_valido": 300245,
+      "solo_desconocido": 0,
+      "casos_resueltos": 609295,
+      "tasa_beneficio_pct": 50.7226
+    },
+    {
+      "anio": 2017,
+      "postulantes_mrun": 601168,
+      "beneficio_valido": 298076,
+      "sin_beneficio_valido": 303092,
+      "solo_desconocido": 0,
+      "casos_resueltos": 601168,
+      "tasa_beneficio_pct": 49.5828
+    },
+    {
+      "anio": 2018,
+      "postulantes_mrun": 579709,
+      "beneficio_valido": 259600,
+      "sin_beneficio_valido": 320109,
+      "solo_desconocido": 0,
+      "casos_resueltos": 579709,
+      "tasa_beneficio_pct": 44.7811
+    },
+    {
+      "anio": 2019,
+      "postulantes_mrun": 582932,
+      "beneficio_valido": 253508,
+      "sin_beneficio_valido": 329424,
+      "solo_desconocido": 0,
+      "casos_resueltos": 582932,
+      "tasa_beneficio_pct": 43.4884
+    },
+    {
+      "anio": 2020,
+      "postulantes_mrun": 546596,
+      "beneficio_valido": 232520,
+      "sin_beneficio_valido": 314076,
+      "solo_desconocido": 0,
+      "casos_resueltos": 546596,
+      "tasa_beneficio_pct": 42.5396
+    },
+    {
+      "anio": 2021,
+      "postulantes_mrun": 595785,
+      "beneficio_valido": 258629,
+      "sin_beneficio_valido": 337156,
+      "solo_desconocido": 0,
+      "casos_resueltos": 595785,
+      "tasa_beneficio_pct": 43.4098
+    },
+    {
+      "anio": 2022,
+      "postulantes_mrun": 609474,
+      "beneficio_valido": 257205,
+      "sin_beneficio_valido": 352263,
+      "solo_desconocido": 6,
+      "casos_resueltos": 609468,
+      "tasa_beneficio_pct": 42.2016
+    },
+    {
+      "anio": 2023,
+      "postulantes_mrun": 622431,
+      "beneficio_valido": 262758,
+      "sin_beneficio_valido": 359662,
+      "solo_desconocido": 11,
+      "casos_resueltos": 622420,
+      "tasa_beneficio_pct": 42.2155
+    },
+    {
+      "anio": 2024,
+      "postulantes_mrun": 636676,
+      "beneficio_valido": 285546,
+      "sin_beneficio_valido": 351121,
+      "solo_desconocido": 9,
+      "casos_resueltos": 636667,
+      "tasa_beneficio_pct": 44.8501
+    },
+    {
+      "anio": 2025,
+      "postulantes_mrun": 637766,
+      "beneficio_valido": 281825,
+      "sin_beneficio_valido": 355931,
+      "solo_desconocido": 10,
+      "casos_resueltos": 637756,
+      "tasa_beneficio_pct": 44.1901
+    }
+  ],
+  "por_genero": [
+    {
+      "anio": 2008,
+      "codigo": 1,
+      "categoria": "Hombre",
+      "casos": 82109,
+      "beneficiarios": 26943,
+      "tasa_beneficio_pct": 32.8137
+    },
+    {
+      "anio": 2008,
+      "codigo": 2,
+      "categoria": "Mujer",
+      "casos": 101990,
+      "beneficiarios": 30576,
+      "tasa_beneficio_pct": 29.9794
+    },
+    {
+      "anio": 2009,
+      "codigo": 1,
+      "categoria": "Hombre",
+      "casos": 99686,
+      "beneficiarios": 32156,
+      "tasa_beneficio_pct": 32.2573
+    },
+    {
+      "anio": 2009,
+      "codigo": 2,
+      "categoria": "Mujer",
+      "casos": 129326,
+      "beneficiarios": 40846,
+      "tasa_beneficio_pct": 31.5837
+    },
+    {
+      "anio": 2010,
+      "codigo": 1,
+      "categoria": "Hombre",
+      "casos": 117280,
+      "beneficiarios": 35536,
+      "tasa_beneficio_pct": 30.3001
+    },
+    {
+      "anio": 2010,
+      "codigo": 2,
+      "categoria": "Mujer",
+      "casos": 147130,
+      "beneficiarios": 43976,
+      "tasa_beneficio_pct": 29.8892
+    },
+    {
+      "anio": 2011,
+      "codigo": 1,
+      "categoria": "Hombre",
+      "casos": 128203,
+      "beneficiarios": 35631,
+      "tasa_beneficio_pct": 27.7926
+    },
+    {
+      "anio": 2011,
+      "codigo": 2,
+      "categoria": "Mujer",
+      "casos": 161521,
+      "beneficiarios": 45813,
+      "tasa_beneficio_pct": 28.3635
+    },
+    {
+      "anio": 2012,
+      "codigo": 0,
+      "categoria": "Sin información",
+      "casos": 1,
+      "beneficiarios": 0,
+      "tasa_beneficio_pct": 0.0
+    },
+    {
+      "anio": 2012,
+      "codigo": 1,
+      "categoria": "Hombre",
+      "casos": 138511,
+      "beneficiarios": 47383,
+      "tasa_beneficio_pct": 34.2088
+    },
+    {
+      "anio": 2012,
+      "codigo": 2,
+      "categoria": "Mujer",
+      "casos": 173645,
+      "beneficiarios": 62233,
+      "tasa_beneficio_pct": 35.8392
+    },
+    {
+      "anio": 2013,
+      "codigo": 1,
+      "categoria": "Hombre",
+      "casos": 149411,
+      "beneficiarios": 55690,
+      "tasa_beneficio_pct": 37.273
+    },
+    {
+      "anio": 2013,
+      "codigo": 2,
+      "categoria": "Mujer",
+      "casos": 182427,
+      "beneficiarios": 70530,
+      "tasa_beneficio_pct": 38.662
+    },
+    {
+      "anio": 2014,
+      "codigo": 1,
+      "categoria": "Hombre",
+      "casos": 155796,
+      "beneficiarios": 59618,
+      "tasa_beneficio_pct": 38.2667
+    },
+    {
+      "anio": 2014,
+      "codigo": 2,
+      "categoria": "Mujer",
+      "casos": 193294,
+      "beneficiarios": 76034,
+      "tasa_beneficio_pct": 39.3359
+    },
+    {
+      "anio": 2015,
+      "codigo": 1,
+      "categoria": "Hombre",
+      "casos": 156460,
+      "beneficiarios": 72625,
+      "tasa_beneficio_pct": 46.4176
+    },
+    {
+      "anio": 2015,
+      "codigo": 2,
+      "categoria": "Mujer",
+      "casos": 188471,
+      "beneficiarios": 88927,
+      "tasa_beneficio_pct": 47.1834
+    },
+    {
+      "anio": 2016,
+      "codigo": 1,
+      "categoria": "Hombre",
+      "casos": 279997,
+      "beneficiarios": 139142,
+      "tasa_beneficio_pct": 49.6941
+    },
+    {
+      "anio": 2016,
+      "codigo": 2,
+      "categoria": "Mujer",
+      "casos": 329298,
+      "beneficiarios": 169908,
+      "tasa_beneficio_pct": 51.597
+    },
+    {
+      "anio": 2017,
+      "codigo": 1,
+      "categoria": "Hombre",
+      "casos": 280194,
+      "beneficiarios": 139921,
+      "tasa_beneficio_pct": 49.9372
+    },
+    {
+      "anio": 2017,
+      "codigo": 2,
+      "categoria": "Mujer",
+      "casos": 320974,
+      "beneficiarios": 158155,
+      "tasa_beneficio_pct": 49.2735
+    },
+    {
+      "anio": 2018,
+      "codigo": 1,
+      "categoria": "Hombre",
+      "casos": 266256,
+      "beneficiarios": 118721,
+      "tasa_beneficio_pct": 44.589
+    },
+    {
+      "anio": 2018,
+      "codigo": 2,
+      "categoria": "Mujer",
+      "casos": 313453,
+      "beneficiarios": 140879,
+      "tasa_beneficio_pct": 44.9442
+    },
+    {
+      "anio": 2019,
+      "codigo": 1,
+      "categoria": "Hombre",
+      "casos": 263992,
+      "beneficiarios": 114372,
+      "tasa_beneficio_pct": 43.324
+    },
+    {
+      "anio": 2019,
+      "codigo": 2,
+      "categoria": "Mujer",
+      "casos": 318940,
+      "beneficiarios": 139136,
+      "tasa_beneficio_pct": 43.6245
+    },
+    {
+      "anio": 2020,
+      "codigo": 1,
+      "categoria": "Hombre",
+      "casos": 242622,
+      "beneficiarios": 102221,
+      "tasa_beneficio_pct": 42.1318
+    },
+    {
+      "anio": 2020,
+      "codigo": 2,
+      "categoria": "Mujer",
+      "casos": 303974,
+      "beneficiarios": 130299,
+      "tasa_beneficio_pct": 42.8652
+    },
+    {
+      "anio": 2021,
+      "codigo": 1,
+      "categoria": "Hombre",
+      "casos": 251762,
+      "beneficiarios": 107127,
+      "tasa_beneficio_pct": 42.5509
+    },
+    {
+      "anio": 2021,
+      "codigo": 2,
+      "categoria": "Mujer",
+      "casos": 344023,
+      "beneficiarios": 151502,
+      "tasa_beneficio_pct": 44.0383
+    },
+    {
+      "anio": 2022,
+      "codigo": 1,
+      "categoria": "Hombre",
+      "casos": 261309,
+      "beneficiarios": 109732,
+      "tasa_beneficio_pct": 41.9932
+    },
+    {
+      "anio": 2022,
+      "codigo": 2,
+      "categoria": "Mujer",
+      "casos": 348159,
+      "beneficiarios": 147473,
+      "tasa_beneficio_pct": 42.3579
+    },
+    {
+      "anio": 2023,
+      "codigo": 1,
+      "categoria": "Hombre",
+      "casos": 273201,
+      "beneficiarios": 116534,
+      "tasa_beneficio_pct": 42.655
+    },
+    {
+      "anio": 2023,
+      "codigo": 2,
+      "categoria": "Mujer",
+      "casos": 349219,
+      "beneficiarios": 146224,
+      "tasa_beneficio_pct": 41.8717
+    },
+    {
+      "anio": 2024,
+      "codigo": 1,
+      "categoria": "Hombre",
+      "casos": 280804,
+      "beneficiarios": 127781,
+      "tasa_beneficio_pct": 45.5054
+    },
+    {
+      "anio": 2024,
+      "codigo": 2,
+      "categoria": "Mujer",
+      "casos": 355863,
+      "beneficiarios": 157765,
+      "tasa_beneficio_pct": 44.3331
+    },
+    {
+      "anio": 2025,
+      "codigo": 1,
+      "categoria": "Hombre",
+      "casos": 282107,
+      "beneficiarios": 125884,
+      "tasa_beneficio_pct": 44.6228
+    },
+    {
+      "anio": 2025,
+      "codigo": 2,
+      "categoria": "Mujer",
+      "casos": 355649,
+      "beneficiarios": 155941,
+      "tasa_beneficio_pct": 43.8469
+    }
+  ],
+  "por_quintil": [
+    {
+      "anio": 2013,
+      "quintil": 1,
+      "casos": 89130,
+      "beneficiarios": 42805,
+      "tasa_beneficio_pct": 48.0254
+    },
+    {
+      "anio": 2013,
+      "quintil": 2,
+      "casos": 91342,
+      "beneficiarios": 45608,
+      "tasa_beneficio_pct": 49.931
+    },
+    {
+      "anio": 2013,
+      "quintil": 3,
+      "casos": 67016,
+      "beneficiarios": 28783,
+      "tasa_beneficio_pct": 42.9494
+    },
+    {
+      "anio": 2013,
+      "quintil": 4,
+      "casos": 52364,
+      "beneficiarios": 8593,
+      "tasa_beneficio_pct": 16.4101
+    },
+    {
+      "anio": 2013,
+      "quintil": 5,
+      "casos": 31986,
+      "beneficiarios": 431,
+      "tasa_beneficio_pct": 1.3475
+    },
+    {
+      "anio": 2014,
+      "quintil": 1,
+      "casos": 98566,
+      "beneficiarios": 42334,
+      "tasa_beneficio_pct": 42.9499
+    },
+    {
+      "anio": 2014,
+      "quintil": 2,
+      "casos": 92711,
+      "beneficiarios": 49976,
+      "tasa_beneficio_pct": 53.9051
+    },
+    {
+      "anio": 2014,
+      "quintil": 3,
+      "casos": 69775,
+      "beneficiarios": 33525,
+      "tasa_beneficio_pct": 48.0473
+    },
+    {
+      "anio": 2014,
+      "quintil": 4,
+      "casos": 54298,
+      "beneficiarios": 9128,
+      "tasa_beneficio_pct": 16.8109
+    },
+    {
+      "anio": 2014,
+      "quintil": 5,
+      "casos": 33740,
+      "beneficiarios": 689,
+      "tasa_beneficio_pct": 2.0421
+    },
+    {
+      "anio": 2015,
+      "quintil": 1,
+      "casos": 93642,
+      "beneficiarios": 42675,
+      "tasa_beneficio_pct": 45.5725
+    },
+    {
+      "anio": 2015,
+      "quintil": 2,
+      "casos": 94007,
+      "beneficiarios": 57055,
+      "tasa_beneficio_pct": 60.6923
+    },
+    {
+      "anio": 2015,
+      "quintil": 3,
+      "casos": 71940,
+      "beneficiarios": 41899,
+      "tasa_beneficio_pct": 58.2416
+    },
+    {
+      "anio": 2015,
+      "quintil": 4,
+      "casos": 54259,
+      "beneficiarios": 19292,
+      "tasa_beneficio_pct": 35.5554
+    },
+    {
+      "anio": 2015,
+      "quintil": 5,
+      "casos": 31083,
+      "beneficiarios": 631,
+      "tasa_beneficio_pct": 2.03
+    },
+    {
+      "anio": 2016,
+      "quintil": 1,
+      "casos": 10636,
+      "beneficiarios": 9164,
+      "tasa_beneficio_pct": 86.1602
+    },
+    {
+      "anio": 2016,
+      "quintil": 2,
+      "casos": 306908,
+      "beneficiarios": 181513,
+      "tasa_beneficio_pct": 59.1425
+    },
+    {
+      "anio": 2016,
+      "quintil": 3,
+      "casos": 123836,
+      "beneficiarios": 71777,
+      "tasa_beneficio_pct": 57.9613
+    },
+    {
+      "anio": 2016,
+      "quintil": 4,
+      "casos": 97024,
+      "beneficiarios": 38933,
+      "tasa_beneficio_pct": 40.1272
+    },
+    {
+      "anio": 2016,
+      "quintil": 5,
+      "casos": 70891,
+      "beneficiarios": 7663,
+      "tasa_beneficio_pct": 10.8096
+    },
+    {
+      "anio": 2017,
+      "quintil": 1,
+      "casos": 17790,
+      "beneficiarios": 15763,
+      "tasa_beneficio_pct": 88.606
+    },
+    {
+      "anio": 2017,
+      "quintil": 2,
+      "casos": 285735,
+      "beneficiarios": 172253,
+      "tasa_beneficio_pct": 60.2842
+    },
+    {
+      "anio": 2017,
+      "quintil": 3,
+      "casos": 123264,
+      "beneficiarios": 69953,
+      "tasa_beneficio_pct": 56.7506
+    },
+    {
+      "anio": 2017,
+      "quintil": 4,
+      "casos": 85708,
+      "beneficiarios": 31803,
+      "tasa_beneficio_pct": 37.1062
+    },
+    {
+      "anio": 2017,
+      "quintil": 5,
+      "casos": 88671,
+      "beneficiarios": 8304,
+      "tasa_beneficio_pct": 9.365
+    },
+    {
+      "anio": 2018,
+      "quintil": 1,
+      "casos": 14709,
+      "beneficiarios": 12964,
+      "tasa_beneficio_pct": 88.1365
+    },
+    {
+      "anio": 2018,
+      "quintil": 2,
+      "casos": 230543,
+      "beneficiarios": 133697,
+      "tasa_beneficio_pct": 57.9922
+    },
+    {
+      "anio": 2018,
+      "quintil": 3,
+      "casos": 132177,
+      "beneficiarios": 74669,
+      "tasa_beneficio_pct": 56.4917
+    },
+    {
+      "anio": 2018,
+      "quintil": 4,
+      "casos": 94414,
+      "beneficiarios": 29928,
+      "tasa_beneficio_pct": 31.6987
+    },
+    {
+      "anio": 2018,
+      "quintil": 5,
+      "casos": 104768,
+      "beneficiarios": 7513,
+      "tasa_beneficio_pct": 7.1711
+    },
+    {
+      "anio": 2022,
+      "quintil": 1,
+      "casos": 20989,
+      "beneficiarios": 18750,
+      "tasa_beneficio_pct": 89.3325
+    },
+    {
+      "anio": 2022,
+      "quintil": 2,
+      "casos": 285191,
+      "beneficiarios": 151370,
+      "tasa_beneficio_pct": 53.0767
+    },
+    {
+      "anio": 2022,
+      "quintil": 3,
+      "casos": 118152,
+      "beneficiarios": 62100,
+      "tasa_beneficio_pct": 52.5594
+    },
+    {
+      "anio": 2022,
+      "quintil": 4,
+      "casos": 90767,
+      "beneficiarios": 21672,
+      "tasa_beneficio_pct": 23.8765
+    },
+    {
+      "anio": 2022,
+      "quintil": 5,
+      "casos": 94369,
+      "beneficiarios": 3313,
+      "tasa_beneficio_pct": 3.5107
+    },
+    {
+      "anio": 2023,
+      "quintil": 1,
+      "casos": 21527,
+      "beneficiarios": 19761,
+      "tasa_beneficio_pct": 91.7963
+    },
+    {
+      "anio": 2023,
+      "quintil": 2,
+      "casos": 270138,
+      "beneficiarios": 149418,
+      "tasa_beneficio_pct": 55.3117
+    },
+    {
+      "anio": 2023,
+      "quintil": 3,
+      "casos": 125800,
+      "beneficiarios": 67138,
+      "tasa_beneficio_pct": 53.3688
+    },
+    {
+      "anio": 2023,
+      "quintil": 4,
+      "casos": 90954,
+      "beneficiarios": 21274,
+      "tasa_beneficio_pct": 23.3898
+    },
+    {
+      "anio": 2023,
+      "quintil": 5,
+      "casos": 114001,
+      "beneficiarios": 5167,
+      "tasa_beneficio_pct": 4.5324
+    },
+    {
+      "anio": 2024,
+      "quintil": 1,
+      "casos": 25835,
+      "beneficiarios": 23777,
+      "tasa_beneficio_pct": 92.0341
+    },
+    {
+      "anio": 2024,
+      "quintil": 2,
+      "casos": 314729,
+      "beneficiarios": 173984,
+      "tasa_beneficio_pct": 55.2806
+    },
+    {
+      "anio": 2024,
+      "quintil": 3,
+      "casos": 126482,
+      "beneficiarios": 67320,
+      "tasa_beneficio_pct": 53.225
+    },
+    {
+      "anio": 2024,
+      "quintil": 4,
+      "casos": 79489,
+      "beneficiarios": 17026,
+      "tasa_beneficio_pct": 21.4193
+    },
+    {
+      "anio": 2024,
+      "quintil": 5,
+      "casos": 90132,
+      "beneficiarios": 3439,
+      "tasa_beneficio_pct": 3.8155
+    },
+    {
+      "anio": 2025,
+      "quintil": 1,
+      "casos": 15357,
+      "beneficiarios": 14092,
+      "tasa_beneficio_pct": 91.7627
+    },
+    {
+      "anio": 2025,
+      "quintil": 2,
+      "casos": 325495,
+      "beneficiarios": 178305,
+      "tasa_beneficio_pct": 54.7796
+    },
+    {
+      "anio": 2025,
+      "quintil": 3,
+      "casos": 127593,
+      "beneficiarios": 67388,
+      "tasa_beneficio_pct": 52.8148
+    },
+    {
+      "anio": 2025,
+      "quintil": 4,
+      "casos": 82942,
+      "beneficiarios": 19000,
+      "tasa_beneficio_pct": 22.9076
+    },
+    {
+      "anio": 2025,
+      "quintil": 5,
+      "casos": 86369,
+      "beneficiarios": 3040,
+      "tasa_beneficio_pct": 3.5198
+    }
+  ],
+  "por_edad": [
+    {
+      "anio": 2008,
+      "tramo": "≤17",
+      "casos": 22,
+      "beneficiarios": 5,
+      "tasa_beneficio_pct": 22.7273
+    },
+    {
+      "anio": 2008,
+      "tramo": "18-20",
+      "casos": 3,
+      "beneficiarios": 0,
+      "tasa_beneficio_pct": 0.0
+    },
+    {
+      "anio": 2008,
+      "tramo": "21-24",
+      "casos": 103,
+      "beneficiarios": 9,
+      "tasa_beneficio_pct": 8.7379
+    },
+    {
+      "anio": 2008,
+      "tramo": "25-29",
+      "casos": 152984,
+      "beneficiarios": 50219,
+      "tasa_beneficio_pct": 32.8263
+    },
+    {
+      "anio": 2008,
+      "tramo": "30-39",
+      "casos": 23676,
+      "beneficiarios": 5419,
+      "tasa_beneficio_pct": 22.8882
+    },
+    {
+      "anio": 2008,
+      "tramo": "40-49",
+      "casos": 2648,
+      "beneficiarios": 524,
+      "tasa_beneficio_pct": 19.7885
+    },
+    {
+      "anio": 2008,
+      "tramo": "50-59",
+      "casos": 574,
+      "beneficiarios": 98,
+      "tasa_beneficio_pct": 17.0732
+    },
+    {
+      "anio": 2008,
+      "tramo": "60+",
+      "casos": 108,
+      "beneficiarios": 15,
+      "tasa_beneficio_pct": 13.8889
+    },
+    {
+      "anio": 2009,
+      "tramo": "≤17",
+      "casos": 2,
+      "beneficiarios": 0,
+      "tasa_beneficio_pct": 0.0
+    },
+    {
+      "anio": 2009,
+      "tramo": "18-20",
+      "casos": 3,
+      "beneficiarios": 0,
+      "tasa_beneficio_pct": 0.0
+    },
+    {
+      "anio": 2009,
+      "tramo": "21-24",
+      "casos": 38609,
+      "beneficiarios": 12688,
+      "tasa_beneficio_pct": 32.8628
+    },
+    {
+      "anio": 2009,
+      "tramo": "25-29",
+      "casos": 157009,
+      "beneficiarios": 52867,
+      "tasa_beneficio_pct": 33.6713
+    },
+    {
+      "anio": 2009,
+      "tramo": "30-39",
+      "casos": 28007,
+      "beneficiarios": 6265,
+      "tasa_beneficio_pct": 22.3694
+    },
+    {
+      "anio": 2009,
+      "tramo": "40-49",
+      "casos": 4319,
+      "beneficiarios": 972,
+      "tasa_beneficio_pct": 22.5052
+    },
+    {
+      "anio": 2009,
+      "tramo": "50-59",
+      "casos": 899,
+      "beneficiarios": 177,
+      "tasa_beneficio_pct": 19.6885
+    },
+    {
+      "anio": 2009,
+      "tramo": "60+",
+      "casos": 117,
+      "beneficiarios": 22,
+      "tasa_beneficio_pct": 18.8034
+    },
+    {
+      "anio": 2010,
+      "tramo": "≤17",
+      "casos": 6,
+      "beneficiarios": 0,
+      "tasa_beneficio_pct": 0.0
+    },
+    {
+      "anio": 2010,
+      "tramo": "18-20",
+      "casos": 4,
+      "beneficiarios": 2,
+      "tasa_beneficio_pct": 50.0
+    },
+    {
+      "anio": 2010,
+      "tramo": "21-24",
+      "casos": 114531,
+      "beneficiarios": 38565,
+      "tasa_beneficio_pct": 33.6721
+    },
+    {
+      "anio": 2010,
+      "tramo": "25-29",
+      "casos": 111244,
+      "beneficiarios": 32471,
+      "tasa_beneficio_pct": 29.189
+    },
+    {
+      "anio": 2010,
+      "tramo": "30-39",
+      "casos": 32193,
+      "beneficiarios": 7127,
+      "tasa_beneficio_pct": 22.1384
+    },
+    {
+      "anio": 2010,
+      "tramo": "40-49",
+      "casos": 5229,
+      "beneficiarios": 1144,
+      "tasa_beneficio_pct": 21.878
+    },
+    {
+      "anio": 2010,
+      "tramo": "50-59",
+      "casos": 1076,
+      "beneficiarios": 186,
+      "tasa_beneficio_pct": 17.2862
+    },
+    {
+      "anio": 2010,
+      "tramo": "60+",
+      "casos": 118,
+      "beneficiarios": 17,
+      "tasa_beneficio_pct": 14.4068
+    },
+    {
+      "anio": 2011,
+      "tramo": "≤17",
+      "casos": 5,
+      "beneficiarios": 0,
+      "tasa_beneficio_pct": 0.0
+    },
+    {
+      "anio": 2011,
+      "tramo": "18-20",
+      "casos": 5,
+      "beneficiarios": 0,
+      "tasa_beneficio_pct": 0.0
+    },
+    {
+      "anio": 2011,
+      "tramo": "21-24",
+      "casos": 167373,
+      "beneficiarios": 53580,
+      "tasa_beneficio_pct": 32.0123
+    },
+    {
+      "anio": 2011,
+      "tramo": "25-29",
+      "casos": 82662,
+      "beneficiarios": 21449,
+      "tasa_beneficio_pct": 25.9478
+    },
+    {
+      "anio": 2011,
+      "tramo": "30-39",
+      "casos": 32913,
+      "beneficiarios": 5306,
+      "tasa_beneficio_pct": 16.1213
+    },
+    {
+      "anio": 2011,
+      "tramo": "40-49",
+      "casos": 5606,
+      "beneficiarios": 979,
+      "tasa_beneficio_pct": 17.4634
+    },
+    {
+      "anio": 2011,
+      "tramo": "50-59",
+      "casos": 1054,
+      "beneficiarios": 123,
+      "tasa_beneficio_pct": 11.6698
+    },
+    {
+      "anio": 2011,
+      "tramo": "60+",
+      "casos": 104,
+      "beneficiarios": 7,
+      "tasa_beneficio_pct": 6.7308
+    },
+    {
+      "anio": 2012,
+      "tramo": "≤17",
+      "casos": 9,
+      "beneficiarios": 0,
+      "tasa_beneficio_pct": 0.0
+    },
+    {
+      "anio": 2012,
+      "tramo": "18-20",
+      "casos": 210,
+      "beneficiarios": 29,
+      "tasa_beneficio_pct": 13.8095
+    },
+    {
+      "anio": 2012,
+      "tramo": "21-24",
+      "casos": 198993,
+      "beneficiarios": 77553,
+      "tasa_beneficio_pct": 38.9727
+    },
+    {
+      "anio": 2012,
+      "tramo": "25-29",
+      "casos": 71582,
+      "beneficiarios": 22021,
+      "tasa_beneficio_pct": 30.7633
+    },
+    {
+      "anio": 2012,
+      "tramo": "30-39",
+      "casos": 33619,
+      "beneficiarios": 8085,
+      "tasa_beneficio_pct": 24.0489
+    },
+    {
+      "anio": 2012,
+      "tramo": "40-49",
+      "casos": 6422,
+      "beneficiarios": 1643,
+      "tasa_beneficio_pct": 25.5839
+    },
+    {
+      "anio": 2012,
+      "tramo": "50-59",
+      "casos": 1197,
+      "beneficiarios": 265,
+      "tasa_beneficio_pct": 22.1387
+    },
+    {
+      "anio": 2012,
+      "tramo": "60+",
+      "casos": 109,
+      "beneficiarios": 20,
+      "tasa_beneficio_pct": 18.3486
+    },
+    {
+      "anio": 2013,
+      "tramo": "≤17",
+      "casos": 16,
+      "beneficiarios": 0,
+      "tasa_beneficio_pct": 0.0
+    },
+    {
+      "anio": 2013,
+      "tramo": "18-20",
+      "casos": 40986,
+      "beneficiarios": 18819,
+      "tasa_beneficio_pct": 45.9157
+    },
+    {
+      "anio": 2013,
+      "tramo": "21-24",
+      "casos": 186968,
+      "beneficiarios": 80579,
+      "tasa_beneficio_pct": 43.0977
+    },
+    {
+      "anio": 2013,
+      "tramo": "25-29",
+      "casos": 60674,
+      "beneficiarios": 17972,
+      "tasa_beneficio_pct": 29.6206
+    },
+    {
+      "anio": 2013,
+      "tramo": "30-39",
+      "casos": 34549,
+      "beneficiarios": 7046,
+      "tasa_beneficio_pct": 20.3942
+    },
+    {
+      "anio": 2013,
+      "tramo": "40-49",
+      "casos": 7140,
+      "beneficiarios": 1500,
+      "tasa_beneficio_pct": 21.0084
+    },
+    {
+      "anio": 2013,
+      "tramo": "50-59",
+      "casos": 1331,
+      "beneficiarios": 282,
+      "tasa_beneficio_pct": 21.1871
+    },
+    {
+      "anio": 2013,
+      "tramo": "60+",
+      "casos": 145,
+      "beneficiarios": 22,
+      "tasa_beneficio_pct": 15.1724
+    },
+    {
+      "anio": 2014,
+      "tramo": "≤17",
+      "casos": 199,
+      "beneficiarios": 4,
+      "tasa_beneficio_pct": 2.0101
+    },
+    {
+      "anio": 2014,
+      "tramo": "18-20",
+      "casos": 126278,
+      "beneficiarios": 60042,
+      "tasa_beneficio_pct": 47.5475
+    },
+    {
+      "anio": 2014,
+      "tramo": "21-24",
+      "casos": 123339,
+      "beneficiarios": 50529,
+      "tasa_beneficio_pct": 40.9676
+    },
+    {
+      "anio": 2014,
+      "tramo": "25-29",
+      "casos": 56433,
+      "beneficiarios": 15938,
+      "tasa_beneficio_pct": 28.2423
+    },
+    {
+      "anio": 2014,
+      "tramo": "30-39",
+      "casos": 34073,
+      "beneficiarios": 7340,
+      "tasa_beneficio_pct": 21.542
+    },
+    {
+      "anio": 2014,
+      "tramo": "40-49",
+      "casos": 7414,
+      "beneficiarios": 1549,
+      "tasa_beneficio_pct": 20.8929
+    },
+    {
+      "anio": 2014,
+      "tramo": "50-59",
+      "casos": 1241,
+      "beneficiarios": 231,
+      "tasa_beneficio_pct": 18.614
+    },
+    {
+      "anio": 2014,
+      "tramo": "60+",
+      "casos": 109,
+      "beneficiarios": 19,
+      "tasa_beneficio_pct": 17.4312
+    },
+    {
+      "anio": 2015,
+      "tramo": "≤17",
+      "casos": 377,
+      "beneficiarios": 113,
+      "tasa_beneficio_pct": 29.9735
+    },
+    {
+      "anio": 2015,
+      "tramo": "18-20",
+      "casos": 180046,
+      "beneficiarios": 96524,
+      "tasa_beneficio_pct": 53.6107
+    },
+    {
+      "anio": 2015,
+      "tramo": "21-24",
+      "casos": 82131,
+      "beneficiarios": 37784,
+      "tasa_beneficio_pct": 46.0046
+    },
+    {
+      "anio": 2015,
+      "tramo": "25-29",
+      "casos": 47558,
+      "beneficiarios": 16814,
+      "tasa_beneficio_pct": 35.3547
+    },
+    {
+      "anio": 2015,
+      "tramo": "30-39",
+      "casos": 27241,
+      "beneficiarios": 8085,
+      "tasa_beneficio_pct": 29.6795
+    },
+    {
+      "anio": 2015,
+      "tramo": "40-49",
+      "casos": 6483,
+      "beneficiarios": 1919,
+      "tasa_beneficio_pct": 29.6005
+    },
+    {
+      "anio": 2015,
+      "tramo": "50-59",
+      "casos": 978,
+      "beneficiarios": 283,
+      "tasa_beneficio_pct": 28.9366
+    },
+    {
+      "anio": 2015,
+      "tramo": "60+",
+      "casos": 111,
+      "beneficiarios": 27,
+      "tasa_beneficio_pct": 24.3243
+    },
+    {
+      "anio": 2016,
+      "tramo": "≤17",
+      "casos": 1022,
+      "beneficiarios": 373,
+      "tasa_beneficio_pct": 36.4971
+    },
+    {
+      "anio": 2016,
+      "tramo": "18-20",
+      "casos": 275818,
+      "beneficiarios": 158543,
+      "tasa_beneficio_pct": 57.481
+    },
+    {
+      "anio": 2016,
+      "tramo": "21-24",
+      "casos": 180761,
+      "beneficiarios": 97323,
+      "tasa_beneficio_pct": 53.8407
+    },
+    {
+      "anio": 2016,
+      "tramo": "25-29",
+      "casos": 93009,
+      "beneficiarios": 36423,
+      "tasa_beneficio_pct": 39.1607
+    },
+    {
+      "anio": 2016,
+      "tramo": "30-39",
+      "casos": 45987,
+      "beneficiarios": 12982,
+      "tasa_beneficio_pct": 28.2297
+    },
+    {
+      "anio": 2016,
+      "tramo": "40-49",
+      "casos": 10689,
+      "beneficiarios": 2920,
+      "tasa_beneficio_pct": 27.3178
+    },
+    {
+      "anio": 2016,
+      "tramo": "50-59",
+      "casos": 1814,
+      "beneficiarios": 433,
+      "tasa_beneficio_pct": 23.8699
+    },
+    {
+      "anio": 2016,
+      "tramo": "60+",
+      "casos": 195,
+      "beneficiarios": 53,
+      "tasa_beneficio_pct": 27.1795
+    },
+    {
+      "anio": 2017,
+      "tramo": "≤17",
+      "casos": 450,
+      "beneficiarios": 53,
+      "tasa_beneficio_pct": 11.7778
+    },
+    {
+      "anio": 2017,
+      "tramo": "18-20",
+      "casos": 233243,
+      "beneficiarios": 130439,
+      "tasa_beneficio_pct": 55.9241
+    },
+    {
+      "anio": 2017,
+      "tramo": "21-24",
+      "casos": 193686,
+      "beneficiarios": 104768,
+      "tasa_beneficio_pct": 54.0917
+    },
+    {
+      "anio": 2017,
+      "tramo": "25-29",
+      "casos": 103911,
+      "beneficiarios": 41512,
+      "tasa_beneficio_pct": 39.9496
+    },
+    {
+      "anio": 2017,
+      "tramo": "30-39",
+      "casos": 54565,
+      "beneficiarios": 16784,
+      "tasa_beneficio_pct": 30.7596
+    },
+    {
+      "anio": 2017,
+      "tramo": "40-49",
+      "casos": 12668,
+      "beneficiarios": 3817,
+      "tasa_beneficio_pct": 30.131
+    },
+    {
+      "anio": 2017,
+      "tramo": "50-59",
+      "casos": 2377,
+      "beneficiarios": 630,
+      "tasa_beneficio_pct": 26.504
+    },
+    {
+      "anio": 2017,
+      "tramo": "60+",
+      "casos": 268,
+      "beneficiarios": 73,
+      "tasa_beneficio_pct": 27.2388
+    },
+    {
+      "anio": 2018,
+      "tramo": "≤17",
+      "casos": 469,
+      "beneficiarios": 65,
+      "tasa_beneficio_pct": 13.8593
+    },
+    {
+      "anio": 2018,
+      "tramo": "18-20",
+      "casos": 227259,
+      "beneficiarios": 117547,
+      "tasa_beneficio_pct": 51.7238
+    },
+    {
+      "anio": 2018,
+      "tramo": "21-24",
+      "casos": 174334,
+      "beneficiarios": 84691,
+      "tasa_beneficio_pct": 48.5797
+    },
+    {
+      "anio": 2018,
+      "tramo": "25-29",
+      "casos": 101454,
+      "beneficiarios": 36695,
+      "tasa_beneficio_pct": 36.1691
+    },
+    {
+      "anio": 2018,
+      "tramo": "30-39",
+      "casos": 57843,
+      "beneficiarios": 15892,
+      "tasa_beneficio_pct": 27.4744
+    },
+    {
+      "anio": 2018,
+      "tramo": "40-49",
+      "casos": 14796,
+      "beneficiarios": 3827,
+      "tasa_beneficio_pct": 25.8651
+    },
+    {
+      "anio": 2018,
+      "tramo": "50-59",
+      "casos": 3188,
+      "beneficiarios": 786,
+      "tasa_beneficio_pct": 24.655
+    },
+    {
+      "anio": 2018,
+      "tramo": "60+",
+      "casos": 366,
+      "beneficiarios": 97,
+      "tasa_beneficio_pct": 26.5027
+    },
+    {
+      "anio": 2019,
+      "tramo": "≤17",
+      "casos": 1429,
+      "beneficiarios": 312,
+      "tasa_beneficio_pct": 21.8334
+    },
+    {
+      "anio": 2019,
+      "tramo": "18-20",
+      "casos": 265468,
+      "beneficiarios": 133278,
+      "tasa_beneficio_pct": 50.2049
+    },
+    {
+      "anio": 2019,
+      "tramo": "21-24",
+      "casos": 151514,
+      "beneficiarios": 69620,
+      "tasa_beneficio_pct": 45.9495
+    },
+    {
+      "anio": 2019,
+      "tramo": "25-29",
+      "casos": 88725,
+      "beneficiarios": 30274,
+      "tasa_beneficio_pct": 34.1212
+    },
+    {
+      "anio": 2019,
+      "tramo": "30-39",
+      "casos": 57322,
+      "beneficiarios": 15274,
+      "tasa_beneficio_pct": 26.646
+    },
+    {
+      "anio": 2019,
+      "tramo": "40-49",
+      "casos": 15139,
+      "beneficiarios": 3916,
+      "tasa_beneficio_pct": 25.867
+    },
+    {
+      "anio": 2019,
+      "tramo": "50-59",
+      "casos": 3016,
+      "beneficiarios": 744,
+      "tasa_beneficio_pct": 24.6684
+    },
+    {
+      "anio": 2019,
+      "tramo": "60+",
+      "casos": 319,
+      "beneficiarios": 90,
+      "tasa_beneficio_pct": 28.2132
+    },
+    {
+      "anio": 2020,
+      "tramo": "≤17",
+      "casos": 489,
+      "beneficiarios": 116,
+      "tasa_beneficio_pct": 23.7219
+    },
+    {
+      "anio": 2020,
+      "tramo": "18-20",
+      "casos": 241390,
+      "beneficiarios": 119253,
+      "tasa_beneficio_pct": 49.4026
+    },
+    {
+      "anio": 2020,
+      "tramo": "21-24",
+      "casos": 146508,
+      "beneficiarios": 64380,
+      "tasa_beneficio_pct": 43.943
+    },
+    {
+      "anio": 2020,
+      "tramo": "25-29",
+      "casos": 79877,
+      "beneficiarios": 27345,
+      "tasa_beneficio_pct": 34.2339
+    },
+    {
+      "anio": 2020,
+      "tramo": "30-39",
+      "casos": 59492,
+      "beneficiarios": 16653,
+      "tasa_beneficio_pct": 27.992
+    },
+    {
+      "anio": 2020,
+      "tramo": "40-49",
+      "casos": 15251,
+      "beneficiarios": 3887,
+      "tasa_beneficio_pct": 25.4869
+    },
+    {
+      "anio": 2020,
+      "tramo": "50-59",
+      "casos": 3181,
+      "beneficiarios": 768,
+      "tasa_beneficio_pct": 24.1434
+    },
+    {
+      "anio": 2020,
+      "tramo": "60+",
+      "casos": 408,
+      "beneficiarios": 118,
+      "tasa_beneficio_pct": 28.9216
+    },
+    {
+      "anio": 2021,
+      "tramo": "≤17",
+      "casos": 540,
+      "beneficiarios": 105,
+      "tasa_beneficio_pct": 19.4444
+    },
+    {
+      "anio": 2021,
+      "tramo": "18-20",
+      "casos": 224650,
+      "beneficiarios": 114620,
+      "tasa_beneficio_pct": 51.0216
+    },
+    {
+      "anio": 2021,
+      "tramo": "21-24",
+      "casos": 162268,
+      "beneficiarios": 78150,
+      "tasa_beneficio_pct": 48.1611
+    },
+    {
+      "anio": 2021,
+      "tramo": "25-29",
+      "casos": 98745,
+      "beneficiarios": 35722,
+      "tasa_beneficio_pct": 36.176
+    },
+    {
+      "anio": 2021,
+      "tramo": "30-39",
+      "casos": 82678,
+      "beneficiarios": 23206,
+      "tasa_beneficio_pct": 28.0679
+    },
+    {
+      "anio": 2021,
+      "tramo": "40-49",
+      "casos": 22071,
+      "beneficiarios": 5602,
+      "tasa_beneficio_pct": 25.3817
+    },
+    {
+      "anio": 2021,
+      "tramo": "50-59",
+      "casos": 4324,
+      "beneficiarios": 1112,
+      "tasa_beneficio_pct": 25.7169
+    },
+    {
+      "anio": 2021,
+      "tramo": "60+",
+      "casos": 509,
+      "beneficiarios": 112,
+      "tasa_beneficio_pct": 22.0039
+    },
+    {
+      "anio": 2022,
+      "tramo": "≤17",
+      "casos": 1373,
+      "beneficiarios": 406,
+      "tasa_beneficio_pct": 29.5703
+    },
+    {
+      "anio": 2022,
+      "tramo": "18-20",
+      "casos": 256640,
+      "beneficiarios": 132793,
+      "tasa_beneficio_pct": 51.7429
+    },
+    {
+      "anio": 2022,
+      "tramo": "21-24",
+      "casos": 145783,
+      "beneficiarios": 67097,
+      "tasa_beneficio_pct": 46.0253
+    },
+    {
+      "anio": 2022,
+      "tramo": "25-29",
+      "casos": 90402,
+      "beneficiarios": 28725,
+      "tasa_beneficio_pct": 31.7747
+    },
+    {
+      "anio": 2022,
+      "tramo": "30-39",
+      "casos": 84403,
+      "beneficiarios": 20902,
+      "tasa_beneficio_pct": 24.7645
+    },
+    {
+      "anio": 2022,
+      "tramo": "40-49",
+      "casos": 25203,
+      "beneficiarios": 5971,
+      "tasa_beneficio_pct": 23.6916
+    },
+    {
+      "anio": 2022,
+      "tramo": "50-59",
+      "casos": 5066,
+      "beneficiarios": 1177,
+      "tasa_beneficio_pct": 23.2333
+    },
+    {
+      "anio": 2022,
+      "tramo": "60+",
+      "casos": 598,
+      "beneficiarios": 134,
+      "tasa_beneficio_pct": 22.408
+    },
+    {
+      "anio": 2023,
+      "tramo": "≤17",
+      "casos": 1604,
+      "beneficiarios": 546,
+      "tasa_beneficio_pct": 34.0399
+    },
+    {
+      "anio": 2023,
+      "tramo": "18-20",
+      "casos": 274567,
+      "beneficiarios": 146092,
+      "tasa_beneficio_pct": 53.2081
+    },
+    {
+      "anio": 2023,
+      "tramo": "21-24",
+      "casos": 144978,
+      "beneficiarios": 64423,
+      "tasa_beneficio_pct": 44.4364
+    },
+    {
+      "anio": 2023,
+      "tramo": "25-29",
+      "casos": 85582,
+      "beneficiarios": 25283,
+      "tasa_beneficio_pct": 29.5424
+    },
+    {
+      "anio": 2023,
+      "tramo": "30-39",
+      "casos": 82377,
+      "beneficiarios": 18825,
+      "tasa_beneficio_pct": 22.8523
+    },
+    {
+      "anio": 2023,
+      "tramo": "40-49",
+      "casos": 26753,
+      "beneficiarios": 6103,
+      "tasa_beneficio_pct": 22.8124
+    },
+    {
+      "anio": 2023,
+      "tramo": "50-59",
+      "casos": 5829,
+      "beneficiarios": 1326,
+      "tasa_beneficio_pct": 22.7483
+    },
+    {
+      "anio": 2023,
+      "tramo": "60+",
+      "casos": 730,
+      "beneficiarios": 160,
+      "tasa_beneficio_pct": 21.9178
+    },
+    {
+      "anio": 2024,
+      "tramo": "≤17",
+      "casos": 823,
+      "beneficiarios": 252,
+      "tasa_beneficio_pct": 30.6197
+    },
+    {
+      "anio": 2024,
+      "tramo": "18-20",
+      "casos": 249637,
+      "beneficiarios": 141673,
+      "tasa_beneficio_pct": 56.7516
+    },
+    {
+      "anio": 2024,
+      "tramo": "21-24",
+      "casos": 160675,
+      "beneficiarios": 80019,
+      "tasa_beneficio_pct": 49.8018
+    },
+    {
+      "anio": 2024,
+      "tramo": "25-29",
+      "casos": 95151,
+      "beneficiarios": 31721,
+      "tasa_beneficio_pct": 33.3375
+    },
+    {
+      "anio": 2024,
+      "tramo": "30-39",
+      "casos": 88995,
+      "beneficiarios": 21593,
+      "tasa_beneficio_pct": 24.2632
+    },
+    {
+      "anio": 2024,
+      "tramo": "40-49",
+      "casos": 32135,
+      "beneficiarios": 7891,
+      "tasa_beneficio_pct": 24.5558
+    },
+    {
+      "anio": 2024,
+      "tramo": "50-59",
+      "casos": 8176,
+      "beneficiarios": 2093,
+      "tasa_beneficio_pct": 25.5993
+    },
+    {
+      "anio": 2024,
+      "tramo": "60+",
+      "casos": 1075,
+      "beneficiarios": 304,
+      "tasa_beneficio_pct": 28.2791
+    },
+    {
+      "anio": 2025,
+      "tramo": "≤17",
+      "casos": 54662,
+      "beneficiarios": 30395,
+      "tasa_beneficio_pct": 55.6054
+    },
+    {
+      "anio": 2025,
+      "tramo": "18-20",
+      "casos": 247721,
+      "beneficiarios": 140608,
+      "tasa_beneficio_pct": 56.7606
+    },
+    {
+      "anio": 2025,
+      "tramo": "21-24",
+      "casos": 130165,
+      "beneficiarios": 58663,
+      "tasa_beneficio_pct": 45.0682
+    },
+    {
+      "anio": 2025,
+      "tramo": "25-29",
+      "casos": 77690,
+      "beneficiarios": 22370,
+      "tasa_beneficio_pct": 28.7939
+    },
+    {
+      "anio": 2025,
+      "tramo": "30-39",
+      "casos": 85923,
+      "beneficiarios": 19727,
+      "tasa_beneficio_pct": 22.9589
+    },
+    {
+      "anio": 2025,
+      "tramo": "40-49",
+      "casos": 32202,
+      "beneficiarios": 7612,
+      "tasa_beneficio_pct": 23.6383
+    },
+    {
+      "anio": 2025,
+      "tramo": "50-59",
+      "casos": 8313,
+      "beneficiarios": 2141,
+      "tasa_beneficio_pct": 25.7548
+    },
+    {
+      "anio": 2025,
+      "tramo": "60+",
+      "casos": 1080,
+      "beneficiarios": 309,
+      "tasa_beneficio_pct": 28.6111
+    }
+  ],
+  "cobertura": [
+    {
+      "anio": 2008,
+      "casos_resueltos": 184099,
+      "casos_genero": 184099,
+      "casos_quintil": null,
+      "casos_edad": 180118,
+      "pct_casos_genero": 100.0,
+      "pct_casos_quintil": null,
+      "pct_casos_edad": 97.84
+    },
+    {
+      "anio": 2009,
+      "casos_resueltos": 229012,
+      "casos_genero": 229012,
+      "casos_quintil": null,
+      "casos_edad": 228965,
+      "pct_casos_genero": 100.0,
+      "pct_casos_quintil": null,
+      "pct_casos_edad": 99.98
+    },
+    {
+      "anio": 2010,
+      "casos_resueltos": 264410,
+      "casos_genero": 264410,
+      "casos_quintil": null,
+      "casos_edad": 264401,
+      "pct_casos_genero": 100.0,
+      "pct_casos_quintil": null,
+      "pct_casos_edad": 100.0
+    },
+    {
+      "anio": 2011,
+      "casos_resueltos": 289724,
+      "casos_genero": 289724,
+      "casos_quintil": null,
+      "casos_edad": 289722,
+      "pct_casos_genero": 100.0,
+      "pct_casos_quintil": null,
+      "pct_casos_edad": 100.0
+    },
+    {
+      "anio": 2012,
+      "casos_resueltos": 312157,
+      "casos_genero": 312157,
+      "casos_quintil": null,
+      "casos_edad": 312141,
+      "pct_casos_genero": 100.0,
+      "pct_casos_quintil": null,
+      "pct_casos_edad": 99.99
+    },
+    {
+      "anio": 2013,
+      "casos_resueltos": 331838,
+      "casos_genero": 331838,
+      "casos_quintil": 331838.0,
+      "casos_edad": 331809,
+      "pct_casos_genero": 100.0,
+      "pct_casos_quintil": 100.0,
+      "pct_casos_edad": 99.99
+    },
+    {
+      "anio": 2014,
+      "casos_resueltos": 349090,
+      "casos_genero": 349090,
+      "casos_quintil": 349090.0,
+      "casos_edad": 349086,
+      "pct_casos_genero": 100.0,
+      "pct_casos_quintil": 100.0,
+      "pct_casos_edad": 100.0
+    },
+    {
+      "anio": 2015,
+      "casos_resueltos": 344931,
+      "casos_genero": 344931,
+      "casos_quintil": 344931.0,
+      "casos_edad": 344925,
+      "pct_casos_genero": 100.0,
+      "pct_casos_quintil": 100.0,
+      "pct_casos_edad": 100.0
+    },
+    {
+      "anio": 2016,
+      "casos_resueltos": 609295,
+      "casos_genero": 609295,
+      "casos_quintil": 609295.0,
+      "casos_edad": 609295,
+      "pct_casos_genero": 100.0,
+      "pct_casos_quintil": 100.0,
+      "pct_casos_edad": 100.0
+    },
+    {
+      "anio": 2017,
+      "casos_resueltos": 601168,
+      "casos_genero": 601168,
+      "casos_quintil": 601168.0,
+      "casos_edad": 601168,
+      "pct_casos_genero": 100.0,
+      "pct_casos_quintil": 100.0,
+      "pct_casos_edad": 100.0
+    },
+    {
+      "anio": 2018,
+      "casos_resueltos": 579709,
+      "casos_genero": 579709,
+      "casos_quintil": 576611.0,
+      "casos_edad": 579709,
+      "pct_casos_genero": 100.0,
+      "pct_casos_quintil": 99.47,
+      "pct_casos_edad": 100.0
+    },
+    {
+      "anio": 2019,
+      "casos_resueltos": 582932,
+      "casos_genero": 582932,
+      "casos_quintil": null,
+      "casos_edad": 582932,
+      "pct_casos_genero": 100.0,
+      "pct_casos_quintil": null,
+      "pct_casos_edad": 100.0
+    },
+    {
+      "anio": 2020,
+      "casos_resueltos": 546596,
+      "casos_genero": 546596,
+      "casos_quintil": null,
+      "casos_edad": 546596,
+      "pct_casos_genero": 100.0,
+      "pct_casos_quintil": null,
+      "pct_casos_edad": 100.0
+    },
+    {
+      "anio": 2021,
+      "casos_resueltos": 595785,
+      "casos_genero": 595785,
+      "casos_quintil": null,
+      "casos_edad": 595785,
+      "pct_casos_genero": 100.0,
+      "pct_casos_quintil": null,
+      "pct_casos_edad": 100.0
+    },
+    {
+      "anio": 2022,
+      "casos_resueltos": 609468,
+      "casos_genero": 609468,
+      "casos_quintil": 609468.0,
+      "casos_edad": 609468,
+      "pct_casos_genero": 100.0,
+      "pct_casos_quintil": 100.0,
+      "pct_casos_edad": 100.0
+    },
+    {
+      "anio": 2023,
+      "casos_resueltos": 622420,
+      "casos_genero": 622420,
+      "casos_quintil": 622420.0,
+      "casos_edad": 622420,
+      "pct_casos_genero": 100.0,
+      "pct_casos_quintil": 100.0,
+      "pct_casos_edad": 100.0
+    },
+    {
+      "anio": 2024,
+      "casos_resueltos": 636667,
+      "casos_genero": 636667,
+      "casos_quintil": 636667.0,
+      "casos_edad": 636667,
+      "pct_casos_genero": 100.0,
+      "pct_casos_quintil": 100.0,
+      "pct_casos_edad": 100.0
+    },
+    {
+      "anio": 2025,
+      "casos_resueltos": 637756,
+      "casos_genero": 637756,
+      "casos_quintil": 637756.0,
+      "casos_edad": 637756,
+      "pct_casos_genero": 100.0,
+      "pct_casos_quintil": 100.0,
+      "pct_casos_edad": 100.0
+    }
+  ]
+}

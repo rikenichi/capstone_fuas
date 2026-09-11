@@ -14,6 +14,8 @@ import inference
 
 ROOT = Path(__file__).resolve().parents[1]
 REPORTS_DIR = ROOT / "artifacts" / "reports"
+DASHBOARD_DIR = ROOT / "artifacts" / "dashboard"
+DASHBOARD_PATH = DASHBOARD_DIR / "dashboard_historico.json"
 
 app = FastAPI(
     title="Capstone FUAS API",
@@ -190,6 +192,29 @@ def explain_endpoint(perfil: PerfilFUAS):
         raise HTTPException(
             status_code=500,
             detail="Error interno durante la explicación."
+        )
+
+
+
+@app.get("/dashboard")
+def dashboard_historico():
+    if not DASHBOARD_PATH.exists():
+        raise HTTPException(
+            status_code=503,
+            detail="Dashboard histórico no disponible."
+        )
+
+    try:
+        with DASHBOARD_PATH.open(
+            "r",
+            encoding="utf-8"
+        ) as f:
+            return json.load(f)
+
+    except (OSError, json.JSONDecodeError):
+        raise HTTPException(
+            status_code=500,
+            detail="No fue posible cargar el dashboard histórico."
         )
 
 
