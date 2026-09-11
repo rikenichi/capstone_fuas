@@ -534,3 +534,30 @@ button {
   border-color: #146ca8 !important;
 }
 
+
+
+/* Claridad de tasas del dashboard */
+
+.category-rate {
+  text-align: right;
+  min-width: 115px;
+}
+
+.category-rate small {
+  display: block;
+  color: #64748b;
+  margin-bottom: 3px;
+}
+
+.category-rate strong {
+  display: block;
+  color: #146ca8;
+  font-size: 1rem;
+}
+
+.category-row > div:first-child small {
+  display: block;
+  margin-top: 3px;
+  color: #64748b;
+}
+

@@ -794,7 +794,7 @@ function App() {
 
                 <div className="dashboard-card">
                   <h3>
-                    Beneficio dentro de cada género · {dashboardYear}
+                    Tasa por género · {dashboardYear}
                   </h3>
 
                   {datosGenero.length > 0 ? (
@@ -809,28 +809,15 @@ function App() {
                           </strong>
 
                           <small>
-                            Postulantes:{" "}
-                            {item.casos
-                              .toLocaleString("es-CL")}
-                          </small>
-
-                          <small>
-                            Beneficiarios:{" "}
-                            {item.beneficiarios
+                            n = {item.casos
                               .toLocaleString("es-CL")}
                           </small>
                         </div>
 
-                        <div className="category-rate">
-                          <small>
-                            Tasa dentro del grupo
-                          </small>
-
-                          <strong>
-                            {item.tasa_beneficio_pct
-                              .toFixed(1)}%
-                          </strong>
-                        </div>
+                        <span>
+                          {item.tasa_beneficio_pct
+                            .toFixed(1)}%
+                        </span>
                       </div>
                     ))
                   ) : (
@@ -842,7 +829,7 @@ function App() {
 
                 <div className="dashboard-card">
                   <h3>
-                    Beneficio dentro de cada quintil · {dashboardYear}
+                    Tasa por quintil · {dashboardYear}
                   </h3>
 
                   {datosQuintil.length > 0 ? (
@@ -857,28 +844,15 @@ function App() {
                           </strong>
 
                           <small>
-                            Postulantes:{" "}
-                            {item.casos
-                              .toLocaleString("es-CL")}
-                          </small>
-
-                          <small>
-                            Beneficiarios:{" "}
-                            {item.beneficiarios
+                            n = {item.casos
                               .toLocaleString("es-CL")}
                           </small>
                         </div>
 
-                        <div className="category-rate">
-                          <small>
-                            Tasa dentro del quintil
-                          </small>
-
-                          <strong>
-                            {item.tasa_beneficio_pct
-                              .toFixed(1)}%
-                          </strong>
-                        </div>
+                        <span>
+                          {item.tasa_beneficio_pct
+                            .toFixed(1)}%
+                        </span>
                       </div>
                     ))
                   ) : (
@@ -893,7 +867,7 @@ function App() {
 
               <div className="dashboard-card">
                 <h3>
-                  Beneficio dentro de cada tramo de edad · {dashboardYear}
+                  Tasa por tramo de edad · {dashboardYear}
                 </h3>
 
                 <div className="age-grid">
@@ -904,25 +878,14 @@ function App() {
                     >
                       <span>{item.tramo}</span>
 
-                      <small>
-                        Postulantes:{" "}
-                        {item.casos
-                          .toLocaleString("es-CL")}
-                      </small>
-
-                      <small>
-                        Beneficiarios:{" "}
-                        {item.beneficiarios
-                          .toLocaleString("es-CL")}
-                      </small>
-
                       <strong>
                         {item.tasa_beneficio_pct
                           .toFixed(1)}%
                       </strong>
 
                       <small>
-                        Tasa dentro del tramo
+                        n = {item.casos
+                          .toLocaleString("es-CL")}
                       </small>
                     </div>
                   ))}
