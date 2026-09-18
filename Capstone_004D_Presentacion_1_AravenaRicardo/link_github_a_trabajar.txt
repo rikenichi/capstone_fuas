@@ -1,1 +1,0 @@
-https://github.com/rikenichi/capstone_fuas.git
