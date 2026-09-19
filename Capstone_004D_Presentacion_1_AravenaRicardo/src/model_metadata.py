@@ -1,4 +1,5 @@
 from pathlib import Path
+from functools import lru_cache
 import hashlib
 
 
@@ -30,12 +31,16 @@ def calculate_sha256(path: Path) -> str | None:
     sha256 = hashlib.sha256()
 
     with path.open("rb") as f:
-        for block in iter(lambda: f.read(1024 * 1024), b""):
+        for block in iter(
+            lambda: f.read(1024 * 1024),
+            b""
+        ):
             sha256.update(block)
 
     return sha256.hexdigest()
 
 
+@lru_cache(maxsize=1)
 def get_model_metadata():
     model_exists = MODEL_PATH.exists()
 
@@ -43,7 +48,11 @@ def get_model_metadata():
         "model_version": MODEL_VERSION,
         "artifact": MODEL_FILENAME,
         "artifact_available": model_exists,
-        "sha256": calculate_sha256(MODEL_PATH),
+        "sha256": (
+            calculate_sha256(MODEL_PATH)
+            if model_exists
+            else None
+        ),
         "training_year": TRAINING_YEAR,
         "temporal_test_year": TEMPORAL_TEST_YEAR,
         "threshold": THRESHOLD,
