@@ -250,3 +250,12 @@ from logging_config import configure_logging, add_request_logging_middleware
 
 configure_logging()
 add_request_logging_middleware(app)
+
+
+# ------------------------------------------------------------------
+# Seguridad HTTP y CORS
+# ------------------------------------------------------------------
+from security import configure_cors, add_security_headers_middleware
+
+configure_cors(app)
+add_security_headers_middleware(app)

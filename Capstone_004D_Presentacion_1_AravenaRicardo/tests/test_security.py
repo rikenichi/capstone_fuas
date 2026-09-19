@@ -101,3 +101,28 @@ def test_predict_no_devuelve_identificadores():
 
     assert "MRUN" not in texto
     assert "RUT" not in texto
+
+
+def test_security_headers():
+    response = client.get("/health")
+
+    assert response.status_code == 200
+
+    assert (
+        response.headers["x-content-type-options"]
+        == "nosniff"
+    )
+
+    assert (
+        response.headers["x-frame-options"]
+        == "DENY"
+    )
+
+    assert (
+        response.headers["referrer-policy"]
+        == "strict-origin-when-cross-origin"
+    )
+
+    assert "camera=()" in response.headers[
+        "permissions-policy"
+    ]
