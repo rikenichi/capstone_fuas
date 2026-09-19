@@ -24,6 +24,7 @@ import pandas as pd
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 import config as cfg
+from schema_validation import assert_valid_schema
 
 
 # ============================================================================
@@ -290,6 +291,19 @@ def build_year(year: int, solo_fuas: bool = True) -> dict:
     # ---- lectura FUAS ----
     df_fuas, enc_fuas = read_csv_robust(cfg.FUAS_FILES[year])
     df_fuas = normalize_columns(df_fuas)
+
+    # Validación estructural previa al procesamiento.
+    # Si MINEDUC cambia columnas o dominios críticos,
+    # el ETL se detiene antes de transformar los datos.
+    schema_fuas = assert_valid_schema(
+        df_fuas,
+        "FUAS",
+        year,
+    )
+
+    m["schema_fuas_valid"] = schema_fuas["valid"]
+    m["schema_fuas_warnings"] = schema_fuas["warnings"]
+
     m["encoding_fuas"] = enc_fuas
     m["filas_fuente_fuas"] = int(len(df_fuas))
 
@@ -312,6 +326,17 @@ def build_year(year: int, solo_fuas: bool = True) -> dict:
     # ---- lectura + agregación Asignaciones ----
     df_asig, enc_asig = read_csv_robust(cfg.ASIG_FILES[year])
     df_asig = normalize_columns(df_asig)
+
+    # Validación estructural antes de agregar beneficios.
+    schema_asig = assert_valid_schema(
+        df_asig,
+        "ASIGNACIONES",
+        year,
+    )
+
+    m["schema_asig_valid"] = schema_asig["valid"]
+    m["schema_asig_warnings"] = schema_asig["warnings"]
+
     m["encoding_asig"] = enc_asig
     asig_agg, meta_asig = aggregate_asignaciones(df_asig)
     m.update(meta_asig)
