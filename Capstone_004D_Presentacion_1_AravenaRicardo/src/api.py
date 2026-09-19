@@ -267,3 +267,14 @@ add_security_headers_middleware(app)
 from rate_limit import add_rate_limit_middleware
 
 add_rate_limit_middleware(app)
+
+
+# ------------------------------------------------------------------
+# Versionado y trazabilidad del modelo
+# ------------------------------------------------------------------
+from model_metadata import get_model_metadata
+
+
+@app.get("/model-version")
+def model_version():
+    return get_model_metadata()
