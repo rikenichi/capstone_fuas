@@ -241,3 +241,12 @@ if FRONTEND_DIR.exists():
             FRONTEND_DIR / "index.html"
         )
 
+
+
+# ------------------------------------------------------------------
+# Logging estructurado / observabilidad
+# ------------------------------------------------------------------
+from logging_config import configure_logging, add_request_logging_middleware
+
+configure_logging()
+add_request_logging_middleware(app)
