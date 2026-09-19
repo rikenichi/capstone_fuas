@@ -21,8 +21,10 @@ FUAS_REQUIRED_COMMON = {
 }
 
 FUAS_DATE_ALIASES = {
-    2024: {"FEC_NAC_ALU"},
-    2025: {"FEC_NAC"},
+    # Esquemas confirmados contra los CSV reales MINEDUC.
+    # Se mantienen alias históricos para tolerar variantes publicadas.
+    2024: {"FEC_NAC", "FEC_NAC_ALU"},
+    2025: {"FEC_NAC", "FEC_NAC_ALU"},
 }
 
 ASIGNACIONES_REQUIRED = {

@@ -80,11 +80,9 @@ def test_missing_required_column():
     )
 
 
-def test_wrong_birth_date_column_2024():
-    df = make_valid_fuas_2024().rename(
-        columns={
-            "FEC_NAC_ALU": "FEC_NAC"
-        }
+def test_missing_birth_date_column_2024():
+    df = make_valid_fuas_2024().drop(
+        columns=["FEC_NAC_ALU"]
     )
 
     report = validate_dataframe(
@@ -94,6 +92,11 @@ def test_wrong_birth_date_column_2024():
     )
 
     assert report["valid"] is False
+
+    assert any(
+        error["type"] == "missing_birth_date_column"
+        for error in report["errors"]
+    )
 
 
 def test_invalid_quintile():
