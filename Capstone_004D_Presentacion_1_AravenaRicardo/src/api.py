@@ -259,3 +259,11 @@ from security import configure_cors, add_security_headers_middleware
 
 configure_cors(app)
 add_security_headers_middleware(app)
+
+
+# ------------------------------------------------------------------
+# Rate limiting
+# ------------------------------------------------------------------
+from rate_limit import add_rate_limit_middleware
+
+add_rate_limit_middleware(app)
