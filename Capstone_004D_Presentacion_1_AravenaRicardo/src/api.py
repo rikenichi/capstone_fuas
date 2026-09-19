@@ -278,3 +278,37 @@ from model_metadata import get_model_metadata
 @app.get("/model-version")
 def model_version():
     return get_model_metadata()
+
+
+# ------------------------------------------------------------------
+# Monitoreo de salud del modelo
+# ------------------------------------------------------------------
+
+@app.get("/model-monitoring")
+def model_monitoring():
+    return {
+        "model_version": "rf-2024-v1.0.0",
+        "baseline_year": 2024,
+        "monitoring_year": 2025,
+        "data_drift": {
+            "status": "stable",
+            "max_psi": 0.095491,
+        },
+        "performance": {
+            "status": "watch",
+            "max_degradation": 0.027791,
+        },
+        "overall_status": "watch",
+        "alerts": [
+            {
+                "type": "performance",
+                "metric": "average_precision",
+                "degradation": 0.027791,
+                "status": "watch",
+            }
+        ],
+        "note": (
+            "Los estados corresponden a criterios operativos "
+            "heurísticos de monitoreo."
+        ),
+    }
