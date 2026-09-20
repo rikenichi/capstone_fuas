@@ -35,7 +35,10 @@ jobs:
       - name: Instalar dependencias
         run: |
           pip install -r requirements-prod.txt
-          pip install pytest httpx
+          pip install pytest httpx pip-audit
+
+      - name: Escanear vulnerabilidades de dependencias
+        run: pip-audit -r requirements-prod.txt
 
       - name: Ejecutar suite de pruebas
         run: pytest -q
