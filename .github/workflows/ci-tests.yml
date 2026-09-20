@@ -47,3 +47,9 @@ jobs:
             --performance artifacts/reports/performance_monitoring/performance_2024_vs_2025.json \
             --output artifacts/monitoring/model_monitoring_ci.json \
             --model-version rf-2024-v1.0.0
+
+      - name: Verificar consistencia del monitoreo
+        run: |
+          python src/check_monitoring_consistency.py \
+            --expected artifacts/monitoring/model_monitoring.json \
+            --generated artifacts/monitoring/model_monitoring_ci.json
