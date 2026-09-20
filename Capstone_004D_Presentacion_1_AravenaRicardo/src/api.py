@@ -283,35 +283,12 @@ def model_version():
 # ------------------------------------------------------------------
 # Monitoreo de salud del modelo
 # ------------------------------------------------------------------
+from model_monitoring_store import get_monitoring_report
+
 
 @app.get("/model-monitoring")
 def model_monitoring():
-    return {
-        "model_version": "rf-2024-v1.0.0",
-        "baseline_year": 2024,
-        "monitoring_year": 2025,
-        "data_drift": {
-            "status": "stable",
-            "max_psi": 0.095491,
-        },
-        "performance": {
-            "status": "watch",
-            "max_degradation": 0.027791,
-        },
-        "overall_status": "watch",
-        "alerts": [
-            {
-                "type": "performance",
-                "metric": "average_precision",
-                "degradation": 0.027791,
-                "status": "watch",
-            }
-        ],
-        "note": (
-            "Los estados corresponden a criterios operativos "
-            "heurísticos de monitoreo."
-        ),
-    }
+    return get_monitoring_report()
 
 
 # ------------------------------------------------------------------
@@ -322,28 +299,7 @@ from model_policy import build_policy_report
 
 @app.get("/model-policy")
 def model_policy():
-    monitoring = {
-        "model_version": "rf-2024-v1.0.0",
-        "baseline_year": 2024,
-        "monitoring_year": 2025,
-        "data_drift": {
-            "status": "stable",
-            "max_psi": 0.095491,
-        },
-        "performance": {
-            "status": "watch",
-            "max_degradation": 0.027791,
-        },
-        "overall_status": "watch",
-        "alerts": [
-            {
-                "type": "performance",
-                "metric": "average_precision",
-                "degradation": 0.027791,
-                "status": "watch",
-            }
-        ],
-    }
+    monitoring = get_monitoring_report()
 
     return build_policy_report(
         monitoring
