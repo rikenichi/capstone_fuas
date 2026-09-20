@@ -1,0 +1,83 @@
+{
+  "baseline": {
+    "year": 2024,
+    "type": "validation"
+  },
+  "current": {
+    "year": 2025,
+    "type": "temporal_test"
+  },
+  "model_version": "rf-2024-v1.0.0",
+  "threshold": 0.42,
+  "interpretation": "Los umbrales corresponden a criterios operativos heurísticos de monitoreo y no a pruebas estadísticas.",
+  "metrics": {
+    "accuracy": {
+      "baseline": 0.703308,
+      "current": 0.69305,
+      "raw_delta": -0.010258,
+      "degradation": 0.010258,
+      "direction": "higher_is_better",
+      "status": "stable"
+    },
+    "average_precision": {
+      "baseline": 0.744746,
+      "current": 0.716954,
+      "raw_delta": -0.027791,
+      "degradation": 0.027791,
+      "direction": "higher_is_better",
+      "status": "watch"
+    },
+    "balanced_accuracy": {
+      "baseline": 0.71687,
+      "current": 0.709524,
+      "raw_delta": -0.007346,
+      "degradation": 0.007346,
+      "direction": "higher_is_better",
+      "status": "stable"
+    },
+    "f1": {
+      "baseline": 0.719526,
+      "current": 0.710241,
+      "raw_delta": -0.009285,
+      "degradation": 0.009285,
+      "direction": "higher_is_better",
+      "status": "stable"
+    },
+    "fnr": {
+      "baseline": 0.151465,
+      "current": 0.148702,
+      "raw_delta": -0.002763,
+      "degradation": 0.0,
+      "direction": "lower_is_better",
+      "status": "stable"
+    },
+    "precision": {
+      "baseline": 0.624568,
+      "current": 0.609285,
+      "raw_delta": -0.015283,
+      "degradation": 0.015283,
+      "direction": "higher_is_better",
+      "status": "stable"
+    },
+    "recall": {
+      "baseline": 0.848535,
+      "current": 0.851298,
+      "raw_delta": 0.002763,
+      "degradation": 0.0,
+      "direction": "higher_is_better",
+      "status": "stable"
+    },
+    "roc_auc": {
+      "baseline": 0.800659,
+      "current": 0.788018,
+      "raw_delta": -0.012642,
+      "degradation": 0.012642,
+      "direction": "higher_is_better",
+      "status": "stable"
+    }
+  },
+  "watch_threshold": 0.02,
+  "high_threshold": 0.05,
+  "max_degradation": 0.027791,
+  "overall_status": "watch"
+}

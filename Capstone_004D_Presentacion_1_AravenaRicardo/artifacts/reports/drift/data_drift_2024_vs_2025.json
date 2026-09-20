@@ -1,0 +1,68 @@
+{
+  "baseline_year": 2024,
+  "current_year": 2025,
+  "population": "PROCESO == FUAS",
+  "features_monitored": [
+    "NEM",
+    "QUINTIL_SE4",
+    "COD_DEPE",
+    "EDAD",
+    "GENERO",
+    "NACIONALIDAD"
+  ],
+  "method": "Population Stability Index (PSI)",
+  "thresholds_operational": {
+    "stable": "PSI < 0.10",
+    "watch": "0.10 <= PSI < 0.25",
+    "high_drift": "PSI >= 0.25"
+  },
+  "note": "Los umbrales PSI se utilizan como criterios operativos heurísticos de monitoreo y no como prueba estadística.",
+  "baseline_rows": 636676,
+  "current_rows": 637766,
+  "features": {
+    "NEM": {
+      "type": "numeric",
+      "psi": 0.001626,
+      "status": "stable",
+      "baseline_missing_rate": 0.0,
+      "current_missing_rate": 0.0
+    },
+    "QUINTIL_SE4": {
+      "type": "categorical",
+      "psi": 0.009617,
+      "status": "stable",
+      "baseline_missing_rate": 0.0,
+      "current_missing_rate": 0.0
+    },
+    "COD_DEPE": {
+      "type": "categorical",
+      "psi": 0.001595,
+      "status": "stable",
+      "baseline_missing_rate": 0.0,
+      "current_missing_rate": 0.0
+    },
+    "EDAD": {
+      "type": "numeric",
+      "psi": 0.095491,
+      "status": "stable",
+      "baseline_missing_rate": 0.0,
+      "current_missing_rate": 0.0
+    },
+    "GENERO": {
+      "type": "categorical",
+      "psi": 7e-06,
+      "status": "stable",
+      "baseline_missing_rate": 0.0,
+      "current_missing_rate": 0.0
+    },
+    "NACIONALIDAD": {
+      "type": "categorical",
+      "psi": 0.000991,
+      "status": "stable",
+      "baseline_missing_rate": 0.0,
+      "current_missing_rate": 0.0
+    }
+  },
+  "max_psi": 0.095491,
+  "overall_status": "stable"
+}
