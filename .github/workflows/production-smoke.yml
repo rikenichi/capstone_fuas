@@ -1,0 +1,28 @@
+name: Production Smoke Test
+
+on:
+  workflow_dispatch:
+
+jobs:
+  smoke-test:
+    name: Verificar producción
+    runs-on: ubuntu-latest
+
+    defaults:
+      run:
+        working-directory: Capstone_004D_Presentacion_1_AravenaRicardo
+
+    steps:
+      - name: Descargar repositorio
+        uses: actions/checkout@v4
+
+      - name: Configurar Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Instalar dependencia HTTP
+        run: pip install requests
+
+      - name: Ejecutar smoke test de producción
+        run: python src/production_smoke_test.py
